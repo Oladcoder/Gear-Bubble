@@ -15,7 +15,7 @@ const Collections = () => {
 
         <div className=" mt-10 px-24 flex justify-center gap-5 flex-wrap">
             <div className="container1 sm:w-full sm:h-56">
-                    <img className="imagery" src="../../public/images/co3.jpg"/> 
+                    <img className="imagery" src="../../images/co3.jpg"/> 
                 <div className="middle">
              <div className="textimg flex justify-center items-center flex-col gap-3"><h1 className='text-4xl text-white'>NATIVE WEARS</h1> <button className="text-white rounded-lg border-2 border-black">GO TO SHOP</button></div>
              </div>
@@ -23,7 +23,7 @@ const Collections = () => {
             </div>
 
             <div className="container1 sm:w-full sm:h-56">
-                    <img className="imagery" src="../../public/images/co2.jpg"/> 
+                    <img className="imagery" src="../../images/co2.jpg"/> 
                 <div className="middle">
              <div className="textimg flex justify-center items-center flex-col gap-3"><h1 className='text-4xl text-white'> FOR WOMEN</h1> <button className="">GO TO SHOP</button></div>
              </div>
@@ -31,7 +31,7 @@ const Collections = () => {
             </div>
 
             <div className="container1 sm:w-full sm:h-56">
-                    <img className="imagery" src="../../public/images/co1.jpg"/> 
+                    <img className="imagery" src="../../images/co1.jpg"/> 
                 <div className="middle">
              <div className="textimg flex justify-center items-center flex-col gap-3"><h1 className='text-4xl text-white'>MEN'S COLLECTION</h1> <button className="">GO TO SHOP</button></div>
              </div>

@@ -7,7 +7,7 @@ const About = () => {
         </div>
         <div className="flex justify-center mt-7 items-center">
             <div className="w-1/3 h-89h">
-                <img className='h-full' src='../../public/images/co4.jpg' alt=''/>
+                <img className='h-full' src='../../images/co4.jpg' alt=''/>
             </div>
             <div className="w-1/2">
             <div><h1 className="text-5xl text-pritext border-black border-b-2"> GEAR BUBBLE </h1>

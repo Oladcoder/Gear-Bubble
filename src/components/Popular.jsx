@@ -6,7 +6,7 @@ const populardata = [
     'id': "1",
     "name": "balck Shirt",
     "category": "men",
-    "image": "../../public/images/items/black shirt.png",
+    "image": "../../images/items/black shirt.png",
     "price": "N3,000",
     "description": "A stylish piece of clothing you wont regret buying"
 },
@@ -14,7 +14,7 @@ const populardata = [
     'id': "2",
     "name": "Addidas Shoes",
     "category": "men",
-    "image": "../../public/images/items/Adidas Shoes.png",
+    "image": "../../images/items/Adidas Shoes.png",
     "price": "N3,000",
     "description": "A stylish piece of clothing you wont regret buying"
 },
@@ -23,7 +23,7 @@ const populardata = [
     'id': "3",
     "name": "Fine Ankara dress",
     "category": "native",
-    "image": "../../public/images/items/Ankara dress 1.png",
+    "image": "../../images/items/Ankara dress 1.png",
     "price": "N3,000",
     "description": "A stylish piece of clothing you wont regret buying"
 }

@@ -30,11 +30,11 @@ export default function ImageSwiper() {
         modules={[Autoplay, EffectCreative]}
         className="mySwiper h-full w-full"
       >
-        <SwiperSlide><img className="h-full w-full" src="../../public/images/sw2.jpg"/></SwiperSlide>
-        <SwiperSlide><img className="h-full w-full" src="../../public/images/sw3.jpg"/></SwiperSlide>
-        <SwiperSlide><img className="h-full w-full" src="../../public/images/sw7.jpg"/></SwiperSlide>
-        <SwiperSlide><img className="h-full w-full" src="../../public/images/sw5.jpg"/></SwiperSlide>
-        <SwiperSlide><img className="h-full w-full" src="../../public/images/sw6.jpg"/></SwiperSlide>
+        <SwiperSlide><img className="h-full w-full" src="../../images/sw2.jpg"/></SwiperSlide>
+        <SwiperSlide><img className="h-full w-full" src="../../images/sw3.jpg"/></SwiperSlide>
+        <SwiperSlide><img className="h-full w-full" src="../../images/sw7.jpg"/></SwiperSlide>
+        <SwiperSlide><img className="h-full w-full" src="../../images/sw5.jpg"/></SwiperSlide>
+        <SwiperSlide><img className="h-full w-full" src="../../images/sw6.jpg"/></SwiperSlide>
       </Swiper>
   )
     }
