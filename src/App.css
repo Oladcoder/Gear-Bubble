@@ -1,0 +1,121 @@
+.home {
+  background-color: #282828;
+}
+.list{
+  transition-duration: 6500ms;
+  transition-property: border-bottom;
+  transition-timing-function: ease-in;
+}
+
+.list:hover{
+border-bottom: 2px white solid;
+}
+
+.container1 {
+  position: relative;
+  width: 30%;
+  height:29rem;
+}
+.shopButton{
+transition-property:  background-color;
+transition-duration: 1000ms;
+transition-timing-function: ease-in-out;
+
+}
+.signupcover{
+  background-image: url(/public/images/co4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagery {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.1;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.textimg {
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.swiper {
+  width: 70%;
+  height: 80%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: white;
+}
+.mySwiper{
+  width: 62%;
+}
+
+
+@-moz-keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+      -webkit-transform: translateX(100%);
+  }
+  100% {
+      -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+/* #0B0C10 */
