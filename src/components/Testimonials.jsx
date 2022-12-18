@@ -12,8 +12,8 @@ import { EffectCards } from "swiper";
 
 const Testimonials = () => {
   return (
-    <div className='mt-10 h-9h'>
-<div><h1 className="text-6xl text-pritext border-pritext border-b-2 w-2/3"> TESTIMONIALS </h1>
+    <div className='mt-10 h-9h xsm:mt-80'>
+<div><h1 className="text-6xl text-pritext xsm:text-5xl border-pritext border-b-2 w-2/3"> TESTIMONIALS </h1>
         </div>
 
         <Swiper

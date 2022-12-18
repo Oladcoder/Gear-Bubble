@@ -13,7 +13,8 @@ module.exports = {
        "rest":"#eaeaea"
       },
       screens:{
-        'sm': {'max': '480px'}
+        'sm': {'max': '480px'},
+        'xsm' : {'max' : '398px'}
       },
       translate:{
         'translate-x-nav':'--tw-translate-x: 110%;'
@@ -27,7 +28,8 @@ module.exports = {
         '45h' : '55vh',
         '8h' :'80vh', 
         '89h' : '89vh',
-        '82' : '22rem'
+        '82' : '22rem',
+        'xsm': '10px'
       },
       transitionDuration:{
         '5': '500ms'

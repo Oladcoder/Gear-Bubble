@@ -8,7 +8,7 @@ const CartItem = ({item, total}) => {
 const cartContext = useContext(CartContext)
 const [count, setCount] = useState(item.quantity)
   return (
-    <div className="shadow-lg gap-2 w-3/5 my-6 flex items-center bg-rest rounded-xl">
+    <div className="shadow-lg gap-2 xsm:w-96 xsm:mt-12 w-3/5 my-6 flex items-center bg-rest rounded-xl">
         <img className="h-40 w-40 rounded-xl" src={item.image}/>
         <div className="flex flex-col gap-3 justify-center ml-6">
             <h1 className="text-2xl">{item.name}</h1>

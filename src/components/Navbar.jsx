@@ -24,7 +24,9 @@ const cartNumber = useContext(CartContext)
         <button onClick = {() => setActive(prev => !prev)} className="hidden sm:block sm:fixed sm:right-6 w-10 h-10"><FaBars/></button>
         <ul className={`flex gap-4 items-center mr-7 ml-auto sm:flex-col sm:h-screen sm:w-full sm:gap-12  ${active ? 'sm:-translate-x-full' : 'translate-x-0'}  sm:items-center sm:top-0 sm:right-0 sm:text-white sm:bg-black  sm:fixed sm:justify-center `}>
             <button className='hidden sm:block' onClick = {() => setActive(prev => !prev)}> <FaTimes/></button>
+            <Link to = "/products"> 
             <li>OUR SHOP </li>
+            </Link>
             <Link to = "/signUp">
             <li className="hover:border-b-2  ">REGISTER</li>
             </Link>
