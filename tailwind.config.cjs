@@ -18,7 +18,12 @@ module.exports = {
       },
       translate:{
         'translate-x-nav':'--tw-translate-x: 110%;'
-      }, 
+      },
+      fontFamily:{
+        'boska' :'Boska, serif',
+        'clash' : 'Clash Display, sans-serif',
+        'grotesk': 'Clash Grotesk, sans-serif'
+      },
       spacing:{
         '9h': '92vh', 
         '9p': '91%', 

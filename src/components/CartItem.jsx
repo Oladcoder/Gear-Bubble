@@ -19,7 +19,10 @@ const [count, setCount] = useState(item.quantity)
             <button onClick={() => 
                 { cartContext.increaseCart(item)
                     setCount(item.quantity)
-                    total()
+                    if (cartContext.cart.length > 1){
+                        total()
+                    }
+                    
 
                     }} className="shadow-lg bg-rest w-9  hover:bg-home hover:text-white rounded-md ">+</button>
             <div className="shadow-lg bg-rest w-9 h-10 border border-black border-opacity-20 flex items-center justify-center rounded-lg">{item.quantity}</div>

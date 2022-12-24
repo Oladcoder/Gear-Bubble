@@ -54,9 +54,11 @@ const Products = ({items}) => {
         <Link to='/'> 
             <button className="flex items-center gap-2 p-2 shadow-sm text-white bg-home"> <BsArrowLeft/> Back</button>
             </Link>
+            <Link to= "/cart">
             <Badge badgeContent={cartnumber.cart.length} color="primary">
               <BsCartFill color="action" />
             </Badge>
+            </Link>
         </div>
         <div className="flex mt-5 justify-between px-10 items-center">
           <input onChange={handleTextChange} placeholder="search for a product ..." className="bg-home text-white focus:border-none h-10 rounded-lg w-2/4"/>

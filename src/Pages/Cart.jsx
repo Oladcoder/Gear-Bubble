@@ -10,19 +10,27 @@ import { BsArrowLeft } from 'react-icons/bs'
 
 const Cart = () => {
     const cartContext = useContext(CartContext)
-    const totalArray = cartContext.cart.map(item => {
-      return item.total
-    })
-    const total = totalArray.reduce((tot, currentNumber) => {
-      return tot + currentNumber
-    })
-    console.log(total)
+    
 
-    const [stateTotal, setStateTotal] = useState(total)
+    const [stateTotal, setStateTotal] = useState(0)
 
     const updateTotal = () => {
+     
+      const totalArray = cartContext.cart.map(item => {
+        return item.total
+      })
+  
+      const total = totalArray.reduce((tot, currentNumber) => {
+        return tot + currentNumber
+      })
+      console.log(total)
+
+
+      if(totalArray.length > 1) {
       setStateTotal(total)
       console.log('working')
+      console.log(total)
+    }
     }
 
   return (

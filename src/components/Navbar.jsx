@@ -31,8 +31,6 @@ const cartNumber = useContext(CartContext)
             <li className="hover:border-b-2  ">REGISTER</li>
             </Link>
             <Link to= "/login"> <li className=" list ">SIGN IN</li></Link>
-        
-        <li className=" list ">WISHLIST</li>
         </ul>
 
 

@@ -31,6 +31,7 @@ function App() {
       console.log(newItem)
       const newCart = [...cart, newItem]
       setCart(newCart)
+      alert('item added to cart')
     }
     else{
       alert('This product is already in cart')
@@ -94,7 +95,7 @@ function App() {
 
   return (
     <CartContext.Provider value = {{cart, addToCart, increaseCart, reduceCart, clearCart, removeItem}}>
-    <div className="App">
+    <div className="App italic font-grotesk">
       <Routes>
         <Route path = "/" element = {<Home />}/>
         <Route path = "/products" element = {<Products items = {data}/>}/>
