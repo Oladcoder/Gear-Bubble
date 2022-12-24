@@ -20,12 +20,16 @@ const Testimonials = () => {
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper mt-10 sm:h-96"
+        className="mySwiper text-pritext mt-10 sm:h-96"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide className="text-black flex justify-center items-center w-full pl-5 font-light text-4xl">"The very best. Gear Bubble is the most valuable business resource we have EVER purchased. Gear Bubble is worth much more than I paid. Gear Bubble has completely surpassed our expectations."
+- Jobye O.</SwiperSlide>
+        <SwiperSlide className="text-black flex justify-center items-center w-full pl-5 font-light text-4xl">"I will let my mum know about this, she could really make use of Gear Bubble! Gear Bubble was worth a fortune to my company. The service was excellent."
+- Taite G.</SwiperSlide>
+        <SwiperSlide className="text-black flex justify-center items-center w-full pl-5 font-light text-4xl">"I like Gear Bubble more and more each day because it makes my life a lot easier. Not able to tell you how happy I am with Gear Bubble. Gear Bubble is awesome! If you want real marketing that works and effective implementation - Gear Bubble's got you covered."
+- Theresa C.</SwiperSlide>
+        <SwiperSlide className="text-black flex justify-center items-center w-full pl-5 font-light text-4xl">"Not able to tell you how happy I am with Gear Bubble. Gear Bubble is great. I will recommend you to my colleagues. It's all good. "
+- Cecily N.</SwiperSlide>
       </Swiper>
 
     </div>

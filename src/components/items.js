@@ -1,6 +1,6 @@
 export const items = [
     {
-        'id': 1,
+        'id': "1",
         "name": "black Shirt",
         "category": "men",
         "image": "../../images/items/black shirt.png",
@@ -67,7 +67,7 @@ export const items = [
     {
         'id': "7",
         "name": "blue Gown",
-        "category": "men",
+        "category": "Women",
         "image": "../../images/items/blue gown.png",
         "price": 3000,
         "description": "A stylish piece of clothing you wont regret buying",

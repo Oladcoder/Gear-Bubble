@@ -43,7 +43,7 @@ const Detailed = ({ items }) => {
 
           </div>
 
-          <div className='text flex flex-col justify-center items-start text-white'>
+          <div className='text flex flex-col justify-center items-start text-white xsm:w-fit'>
             <div className="flex flex-col sm:flex-row sm:gap-10 gap-7 justify-center items-start">
               <h1 className="text-3xl">{thisProduct.name}</h1>
               <h1 className='text-3xl font-bold'>N3,000</h1>
@@ -63,7 +63,7 @@ const Detailed = ({ items }) => {
 
       </div>
 
-<div className="bg-rest flex flex-col ">
+<div className="bg-rest flex flex-col xsm:mt-12 ">
   <h1 className="text-6xl text-pritext border-pritext border-b-2 w-2/3"> RELATED PRODUCTS </h1>
   <div className="gap-8 flex justify-center items-center">
   {recommendedList.slice(0, 4).map(item => <Product item ={item}/>)}

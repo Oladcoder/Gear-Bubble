@@ -27,6 +27,10 @@ transition-timing-function: ease-in-out;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.navbar{
+  transition-duration: 9000ms;
+  transition-timing-function: ease-in-out;
+}
 
 .imagery {
   opacity: 1;

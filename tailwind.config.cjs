@@ -38,6 +38,9 @@ module.exports = {
       },
       transitionDuration:{
         '5': '500ms'
+      },
+      transitionDelay:{
+        '2' :'200ms'
       }
     },
   },
